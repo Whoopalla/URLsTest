@@ -96,6 +96,7 @@ namespace URLsTest.Client.ViewModels {
 
             foreach (var tagItem in TagItems) {
                 tagItem.ErrorOcurred = false;
+                tagItem.Count = 0;
             }
 
             _cancellationTokenSource = new CancellationTokenSource();
